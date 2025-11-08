@@ -1,3 +1,17 @@
-[gd_scene format=3 uid="uid://lui1jxet8xc0"]
+[gd_scene load_steps=3 format=3 uid="uid://lui1jxet8xc0"]
+
+[ext_resource type="Script" uid="uid://citoifwthj6cf" path="res://CardManager.gd" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://b1bipgsqmpn8e" path="res://Card.tscn" id="2_h2yge"]
 
 [node name="Main" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="CardManager" type="Node2D" parent="."]
+script = ExtResource("1_0xm2m")
+
+[node name="Card" parent="CardManager" instance=ExtResource("2_h2yge")]
+position = Vector2(202, 83)
+
+[node name="Card2" parent="CardManager" instance=ExtResource("2_h2yge")]
+position = Vector2(-237, -116)
