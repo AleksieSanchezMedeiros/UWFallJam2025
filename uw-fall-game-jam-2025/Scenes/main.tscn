@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://lui1jxet8xc0"]
 
-[ext_resource type="Script" uid="uid://citoifwthj6cf" path="res://CardManager.gd" id="1_0xm2m"]
-[ext_resource type="PackedScene" uid="uid://b1bipgsqmpn8e" path="res://Card.tscn" id="2_h2yge"]
+[ext_resource type="Script" uid="uid://citoifwthj6cf" path="res://Scripts/CardManager.gd" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://b1bipgsqmpn8e" path="res://Prefabs/Card.tscn" id="2_h2yge"]
 
 [node name="Main" type="Node2D"]
 
