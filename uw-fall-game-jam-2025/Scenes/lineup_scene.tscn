@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://c2oeqdx3dkiqa"]
+
+[ext_resource type="Script" uid="uid://kka1bjkcb7mm" path="res://Scripts/SuspectsManager.gd" id="1_fnk61"]
+[ext_resource type="Script" uid="uid://dpqoyinbmoeeq" path="res://Scripts/Folder.gd" id="2_kvhlb"]
+[ext_resource type="Texture2D" uid="uid://4huyexg1l6ei" path="res://assets/unhighlighted_folder.png" id="3_fnk61"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fnk61"]
+size = Vector2(96, 72)
+
+[node name="Node" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="SubjectManager" type="Node2D" parent="."]
+script = ExtResource("1_fnk61")
+
+[node name="Folder" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -500.0
+offset_top = 250.0
+offset_right = -500.0
+offset_bottom = 250.0
+grow_vertical = 0
+script = ExtResource("2_kvhlb")
+
+[node name="FolderImg" type="Sprite2D" parent="Folder"]
+scale = Vector2(3.01, 3.01)
+texture = ExtResource("3_fnk61")
+
+[node name="Area2D" type="Area2D" parent="Folder"]
+position = Vector2(0, -1.5258789e-05)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Folder/Area2D"]
+shape = SubResource("RectangleShape2D_fnk61")
+
+[connection signal="mouse_entered" from="Folder/Area2D" to="Folder" method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Folder/Area2D" to="Folder" method="_on_area_2d_mouse_exited"]

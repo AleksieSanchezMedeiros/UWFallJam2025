@@ -1,0 +1,20 @@
+[
+	{
+		"id": "suspect1",
+		"name": "Suspect 1",
+		"bio": "Misses his gf\nWishes to see her soon",
+		"sprite": "res://temp_assets/suspect1.png"
+	},
+	{
+		"id": "suspect2",
+		"name": "Suspect 2",
+		"bio": "Wants nothing more than to be with her\nLoves her to no end",
+		"sprite": "res://temp_assets/suspect2.png"
+	},
+	{
+		"id": "suspect3",
+		"name": "Suspect 3",
+		"bio": "Hopes that she's doing well\nYearns for her",
+		"sprite": "res://temp_assets/suspect3.png"
+	}
+]
