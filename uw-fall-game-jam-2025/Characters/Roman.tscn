@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://2y7tfcd1eroj"]
+
+[ext_resource type="Script" uid="uid://bb4w8aqjjy45h" path="res://Characters/Character.gd" id="1_5o3dg"]
+[ext_resource type="SpriteFrames" uid="uid://cwvqf3kmec3e" path="res://Characters/None.tres" id="2_5o3dg"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_5o3dg")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_5o3dg")
+animation = &"None"

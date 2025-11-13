@@ -1,0 +1,70 @@
+[gd_scene load_steps=4 format=3 uid="uid://1lqdwmw30xhi"]
+
+[ext_resource type="Script" uid="uid://tgjgdaxyjcbv" path="res://diag_ui.gd" id="1_rsbri"]
+[ext_resource type="Theme" uid="uid://la721qj7j5h" path="res://themes/DiagUI.tres" id="1_y17v2"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_etdo6"]
+font_size = 35
+
+[node name="DiagUi" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rsbri")
+
+[node name="DiagBox" type="PanelContainer" parent="."]
+custom_minimum_size = Vector2(0, 150)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="DiagBox"]
+layout_mode = 2
+theme = ExtResource("1_y17v2")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 24
+theme_override_font_sizes/bold_italics_font_size = 24
+theme_override_font_sizes/italics_font_size = 24
+theme_override_font_sizes/mono_font_size = 24
+bbcode_enabled = true
+text = " MY NAME IS NOT [shake]ROMA TOMATOES[/shake]"
+
+[node name="SpeakerBox" type="PanelContainer" parent="."]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -200.0
+offset_right = 200.0
+offset_bottom = -149.99997
+grow_vertical = 0
+
+[node name="Label" type="Label" parent="SpeakerBox"]
+layout_mode = 2
+text = "  Roma Tomatoes  "
+label_settings = SubResource("LabelSettings_etdo6")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="Polygon2D" type="Polygon2D" parent="Control"]
+position = Vector2(-24, -25)
+polygon = PackedVector2Array(0, 0, 40, 20, 0, 40)
+uv = PackedVector2Array(0, 0, 50, 25, 0, 50)

@@ -1,0 +1,15 @@
+~ start
+Roman: Now that you’ve interrogated both suspects, it’s time to use your so-called spiritual abilities. Who stole the video games? 
+Detective: It’s….
+do can_click_now()
+- JordJocus
+	After raiding JordJocus’ home, police were unable to find any stolen games, mostly coupons to pizza places.
+	“Just cause I want to be famous on youtube doesn’t mean I’m willing to do crime, I’m not that obsessed.” 
+	JordJocus still continues to post videos on his channel, esp with his latest popular series Pizza ASMR and Crime Stories
+	do InterviewTracker.romanFail(true)
+- EagleScoutz
+	After raiding EagleScoutz home, police were able to find all of the stolen games. 
+	EagleScoutz confessed, stating that he had been orchestrating his fans to get the newest and most popular games for him as a youtube challenge in order to prevent other youtubers from getting access to them. 
+	“The only thing I’m really guilty of is my passion for video games.” The infamous YouTuber is now serving his sentence in prison and in therapy to deal with the lack of video games. 
+do go_to_next_crime()
+=> END

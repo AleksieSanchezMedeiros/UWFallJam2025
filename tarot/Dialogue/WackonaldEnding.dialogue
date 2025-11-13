@@ -1,0 +1,21 @@
+~ start
+Roman: Time to make a decision Detective. 
+Detective: It’s….
+do can_click_now()
+
+- The CEO
+	A few days later The CEO of Warger King was revealed to be innocent. 
+	Despite having a grudge and rivalry against Wackonald’s, his greater passion for his own business defeats any desire to end a rival food chain.
+	He has used the drama surrounding the first to grow his business’ popularity, releasing a combo meal that is for sure a “fire deal.”
+	do InterviewTracker.romanFail(true)
+- The Big Fan
+	A few days later Louis Cone (The Big Fan) was indeed revealed to be the person behind the Wackonald’s Fires.
+	Despite being a long time loyal customer, he grew resentment for the fast food chain due to constantly being informed that the ice cream machine was broken and other items were out of stock.
+	Mr. Cone apologizes for what he has done, only wanting to try to bring attention to such an important issue and actually get the machines fixed. 
+- The Mascot, Frank
+	A few days later Frank Mo, the mascot of Wackonald’s, was found to be innocent.
+	He despised his job, but he has worked as a mascot for so long that it would be silly to suddenly want to get revenge. 
+	“I also don’t like being unemployed” says Mr. Mo in a recent interview. Due to the drama of the fires, Mr. Mo has left his position and is now working as Warger King’s newest mascot. 
+	do InterviewTracker.romanFail(true)
+do go_to_next_crime()
+=> END

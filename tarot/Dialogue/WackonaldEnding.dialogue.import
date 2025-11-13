@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://djtk2jyuf17ud"
+path="res://.godot/imported/WackonaldEnding.dialogue-dabb5dd95f0ce8163a489d70aaf87399.tres"
+
+[deps]
+
+source_file="res://Dialogue/WackonaldEnding.dialogue"
+dest_files=["res://.godot/imported/WackonaldEnding.dialogue-dabb5dd95f0ce8163a489d70aaf87399.tres"]
+
+[params]
+
+defaults=true

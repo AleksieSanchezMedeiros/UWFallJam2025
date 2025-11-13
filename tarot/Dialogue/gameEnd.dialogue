@@ -1,0 +1,18 @@
+~ start
+do change_background("line_up")
+Congrats! You finished [wave]The Miss Pell Tattoo-ings[/wave]
+Roman: That’s it for today. Thank you for your efforts, Detective. Based on how you did…..
+do checkEnding()
+
+~ GOOD
+do change_background("black")
+Roman: I’m proud to say that Operation Arcana will continue to thrive alongside our city.
+[wave]GOOD ENDING[/wave]
+=> END
+
+
+~ BAD
+do change_background("black")
+Roman: We will need to re-evaluate if Operation Arcana is actually beneficial to our city. 
+[shake]BAD ENDING[/shake]
+=> END

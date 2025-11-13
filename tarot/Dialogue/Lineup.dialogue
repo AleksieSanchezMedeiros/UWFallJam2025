@@ -1,0 +1,4 @@
+~ start
+[i]Choose someone to interrogate and solve this pixel pandemonium[/i]
+do can_click_now()
+=> END

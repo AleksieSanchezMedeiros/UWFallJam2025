@@ -1,0 +1,67 @@
+[gd_scene load_steps=4 format=3 uid="uid://bwaithksx80it"]
+
+[ext_resource type="Texture2D" uid="uid://gktn3ruijeek" path="res://Backgrounds/lineup_background.png" id="1_ekkys"]
+[ext_resource type="Script" uid="uid://dg3psq3igxufi" path="res://Scenes/tattoo_final.gd" id="1_nijib"]
+[ext_resource type="PackedScene" uid="uid://jau6lca5oel5" path="res://Scenes/Character.tscn" id="2_nijib"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_nijib")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Background" type="TextureRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ekkys")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer2"]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -167.0
+offset_top = -231.0
+offset_right = 167.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Node2D" parent="CanvasLayer2/Control" instance=ExtResource("2_nijib")]
+position = Vector2(167.62, 9)
+scale = Vector2(7.67, 7.67)
+
+[node name="Control2" type="Control" parent="CanvasLayer2"]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -252.0
+offset_right = 273.0
+grow_vertical = 0
+
+[node name="Node2D" parent="CanvasLayer2/Control2" instance=ExtResource("2_nijib")]
+position = Vector2(187.39, 73)
+scale = Vector2(6.65, 6.65)
+
+[node name="Control3" type="Control" parent="CanvasLayer2"]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -273.0
+offset_top = -252.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="Node2D" parent="CanvasLayer2/Control3" instance=ExtResource("2_nijib")]
+position = Vector2(79, 40.000004)
+scale = Vector2(6.65, 6.65)

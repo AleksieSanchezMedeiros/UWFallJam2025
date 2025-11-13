@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://buiq816vj4flu"
+path="res://.godot/imported/TattooEnding.dialogue-42e619be9666b2b33e8591169b1745ea.tres"
+
+[deps]
+
+source_file="res://Dialogue/TattooEnding.dialogue"
+dest_files=["res://.godot/imported/TattooEnding.dialogue-42e619be9666b2b33e8591169b1745ea.tres"]
+
+[params]
+
+defaults=true

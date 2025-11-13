@@ -1,0 +1,29 @@
+~ start
+Detective: Hello Mr. Jocus. The reason why we called you down here is that you were seen to be in the store around the time of the robbery. 
+Jord: -Pizza. 
+Detective: Excuse me? 
+Jord: Sorry, uh I was getting pizza. There’s this awesome place next to GameGo and since it takes time to make perfection, I like to check out GameGo while I wait for my food. 
+~ Question1
+- Have you heard of EagleScoutz? He’s the person you were next to earlier.
+	Jord: Duh of course, he’s the reason I wanted to become a youtuber. I hope to be like him one day.
+	Detective: I see, you seem to look up to him. Are you jealous of what he has?
+	Jord: I mean, who wouldn’t? I do wish I had a larger audience like he does, but I know it takes time. I’m lucky enough to have a general audience.
+	=> Question1
+- What did you do while in GameGo?
+	Jord: I was looking for any popular games that were on sale. I wanted to do a video game review for my next video.
+	Detective: Did you see anything suspicious? 
+	Jord: Hmm let me think, the place was crazy packed with people so a lot was going on. I know there were a bunch of people watching EagleScoutz’s stream, and also some talking about some youtube challenge.  
+	Detective: A challenge?
+	Jord: Yeah, Eaglescoutz does that sometimes to engage his audience. I participated in his last challenge where he asked us to get a soda from every grocery store in the city. It was pretty fun. 
+	=> Question1
+- So you’re a youtuber as well. What kind of content do you do?
+	Jord: I’m still figuring it out. Dabbled in let’s plays, game reviews, and vlogs. Oh OH I’m thinking about doing a pizza series where I tell stories!!! What do you think? 
+	Detective: ….
+	Jord: …
+	Detective: How committed would you say you are to being a youtuber. 
+	Jord: I’d say quite committed, but it does have its ups and downs. It’s been difficult to do gaming content especially. It’s like every video game store is sold out of what’s popular right now, can’t even get my hands on any cool game. 
+	=> Question1
+- END QUESTIONING
+	[i]Jord walks out of the interrogation room, surely headed to the closest pizza place.[/i]
+	do back_to_line_up()
+	=> END

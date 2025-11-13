@@ -1,0 +1,25 @@
+~ start
+Mona Vale: Hello Detective. 
+Detective: Hello Miss Vale, thank you for meeting with me. 
+Mona Vale: Of course. However, to be honest, Miss Deren did not inform me that I was being interviewed. I thought I was here to just take more photos of her. 
+Detective: Ah yes, your Miss Deren’s social media coordinator. Well, I apologize for the surprise, but we called you in because we wanted to ask about the media page that you run. You see, besides almost every victim of the serial tattooings having been Miss Deren’s clients, they all have also been previously featured on the media page. 
+~ Question1
+- “Can you tell us how you run the media page?”
+	Mona Vale: Sure. Well, when Miss Deren is quite proud of her work, she will ask each client if they’d like to be featured on the social media page. If they say yes, I take a couple photos, learn about the client themselves, and post about Miss Deren’s “genius creativity” behind that work. 
+	Detective: Do you like what you do? 
+	Mona Vale: It's decent work, nothing too surprising after doing this kind of work for 5 years. Making my marketing degree that my parents wanted worthwhile. And Miss Deren needs the help anyway, being dyslex- oh…I said too much. She just prefers that I do the writing. 
+	=> Question1
+- “What is it like working with Miss Deren?”
+	Mona Vale: …I am very fortunate to get to work with someone who is quite well-known as it can be exciting at times to showcase work that is known to get immediate attention. But, I’ll briefly mention that Miss Deren can be quite ambitious with her work. Very opinionated on what she claims is and is not art. 
+	[i]Mona pauses and frowns.[/i] 
+	Detective: Why do you say that? 
+	Mona Vale: Oh, you see in my free time I like to come up with my own designs, and then show them to Miss Deren. But no matter how much work I put into it, she always has something negative to say. But uh she complimented my handwriting the other day!!! I’m good at mimicking styles. 
+	=> Question1
+- “Could you write out the following phrase “It’s rice to meet you.”
+	Mona Vale: Hmm, funny. 
+	Mona writes the phrase. She takes quite a bit of time. The spelling is all correct and the writing style was quite unique.
+	=> Question1
+- END QUESTIONING
+	[i]Mona Vale leaves, phone in hand[/i]
+	do back_to_line_up()
+	=> END

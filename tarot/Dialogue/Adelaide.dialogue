@@ -1,0 +1,29 @@
+~ start
+Adelaide: Detective, I don’t understand why I am even here. Years of my life have been devoted to teaching people to resist the vanity and sin a tattoo could bring.
+Detective: Well Kool Aid… Sorry, Adelaide, your name was brought up quite frequently while preparing for this case. We believe you are a suspect because of your frequent push to make tattoos illegal and writing frequent letters to Miss Deren’s shop. 
+~ Question1
+- What do you say about the claim that you’re attempting to use this crime to further your own gains?
+	Adelaide: Further my own gains? Detective, I am a spiritual leader, a guide. I utilize solely the power of my words. I’d never break my moral code, kidnapping people?!! Please.
+	Adelaide: However, I do quite enjoy what this Miss Pell person has been doing. Of course, I pray for the victims affected, but the way I see it, these tattooings are a way to ensure no one will like tattoos again.
+	=> Question1
+- Where does your dislike for tattoos come from? 
+	Adelaide: …Well. Ever since my younger years. All my friends were getting tattoos, except for me of course, I felt left out. However, I stayed true and patient, and I watched as one by one they began to regret what they had gotten years ago. 
+	Detective: What tattoos did they get? 
+	Adelaide: Ugh, they all got matching tattoos of the Wackonald mascot. It was where we all hung out all the time after school. 
+	Detective: Why did they regret it? Was it the size? Color? 
+	Adelaide: Oh gosh, all the above. Hideous color palette, a size way too big, and horribly placed on the upper right arm. 
+	Detective: Hmm you know quite a lot about this tattoo that you say that you didn’t get.
+	Adelaide: Well, uh of course. I hate all tattoos. 
+	Detective: ….May I see your upper right arm. 
+	Adelaide: …..No.
+	Detective: …please?
+	Adelaide: Are we done here, Detective?.
+	=> Question1
+- “Could you write out the following phrase “It’s rice to meet you.”
+	Adelaide: What a horrible pun. 
+	Adelaide writes out the phrase. She writes in the phrase with  perfect spelling. However, the dot over the i in rice, is exact to that of Miss Pells. 
+	=> Question1
+- END QUESTIONING
+	Detective: Thank you for your time, Adelaide
+	do back_to_line_up()
+	=> END

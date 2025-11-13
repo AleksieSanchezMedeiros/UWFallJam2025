@@ -1,0 +1,28 @@
+~ start
+do set_click(false)
+Congrats! You finished [wave]The The Wackonald Fires [/wave]
+[b]Case 3, The Miss Pell Tattoo-ings[/b]
+Roman: We have a harder case for you now. There is a serial-
+Detective: Killer? Oh no. 
+Roman: No, a Serial Tattoo Artist. Over the past few weeks, someone who goes by the nickname Miss Pell has been kidnapping people and tattooing odd words and phrases onto them.  
+Detective: What do you mean by “odd”, Rocco? 
+Roman: Well. From every single victim who has come forward, there has been a noticeable pattern in which every word is slightly misspelled. We have a voice recording of one of the victims directly after their … sudden appointment. 
+do playAudio()
+“MY FOREHEADD!!! [shake]*audible crying*[/shake] I can never show my face in society ever again!!! [shake]*more audible crying*[/shake] Could you, could you please just state what was written on your forehead, ma’am. FINE!!!! This CRIMINAL tattooed the phrase,”It’s rice to meet you.” HAHHAHAHA. SOOOO FUNNY. But here’s the kicker, they spelled “meet” M-E-A-T. AHHHH I'M RUINED.”
+do stopAudio()
+Detective: I'll definitely want to convene with this spirits for this one
+[i]To conduct a reading, press the crystal ball.[/i]
+=> hideBox
+
+~ continue
+do set_click(false)
+do show_all_tarot_card()
+[i]Press C to see card descriptions[/i]
+Detective: Let’s find this culprit, A La Ramode.   
+do change_scene_again()
+=> END
+
+~ hideBox
+do set_click(true)
+
+=> END

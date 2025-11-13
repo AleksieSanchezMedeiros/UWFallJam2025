@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://i4jnlkqhl3g3"
+path="res://.godot/imported/Adelaide.dialogue-77462e321a55ced851fee9e0cd0dd2b9.tres"
+
+[deps]
+
+source_file="res://Dialogue/Adelaide.dialogue"
+dest_files=["res://.godot/imported/Adelaide.dialogue-77462e321a55ced851fee9e0cd0dd2b9.tres"]
+
+[params]
+
+defaults=true

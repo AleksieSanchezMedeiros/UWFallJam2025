@@ -1,0 +1,25 @@
+~ start
+do set_click(false)
+Congrats! You finished [wave]The Case of Missing GameGo Games[/wave]
+[b]Case 2, The Wackonald Fires [/b]
+Roman: There have been a string of late-night arsons across several Wackonald’s locations. Each site reduced to a sticky, melted ruin. 
+Roman: For this case, your suspects are the CEO of Warger King, Louis Cone, a well-known frequent customer, and Frank Mo, the mascot of Wackonald’s for many years. 
+Detective: Interesting, due to having more suspects, I will ask the spirits for more guidance. 
+[i]To conduct a reading, press the crystal ball.[/i]
+=> hideBox
+
+~ continue
+do set_click(false)
+do show_all_tarot_card()
+[i]Press C to see card descriptions[/i]
+Roman: Why is one of them upside down?
+Detective: Good observation, Rom-com. Tarot cards inherently have dual meanings which are dictated by either an upright or reversed position. Before, the card that we received was in the upright position. Essentially the main idea of a reversed card is that they indicate the opposite of the card when in the upright position. The Page of cups card, when upright, can refer to idealism, pursuing dreams, and emotional openness. But in reverse, it indicates avoidance of reality, emotional vulnerability, and immaturity. 
+Roman: I honestly stopped listening for a bit. As long as it helps us get the culprits. 
+Detective: Let’s see the suspects, Roblox.  
+do change_scene_again()
+=> END
+
+~ hideBox
+do set_click(true)
+
+=> END

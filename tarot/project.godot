@@ -1,0 +1,40 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="tarot"
+run/main_scene="uid://b3mtwhoh8k183"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+
+[autoload]
+
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+InterviewTracker="*res://Scenes/InterviewTracker.gd"
+AudioController="*res://Scenes/audio_controller.tscn"
+
+[editor]
+
+import/default_font_multichannel_signed_distance_field=true
+import/canvas_textures/default_texture_filter=0
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
+
+[internationalization]
+
+locale/translations_pot_files=PackedStringArray("res://Dialogue/Intro.dialogue", "res://Dialogue/FirstReading.dialogue", "res://Dialogue/Lineup.dialogue", "res://Dialogue/EagleScoutz.dialogue", "res://Dialogue/JordJocus.dialogue", "res://Dialogue/Ending.dialogue", "res://Dialogue/wackonald_lineup.dialogue", "res://Dialogue/CEO.dialogue", "res://Dialogue/Fan.dialogue", "res://Dialogue/Mascot.dialogue", "res://Dialogue/WackonaldEnding.dialogue", "res://Dialogue/tattoo_lineup.dialogue", "res://Dialogue/Artist.dialogue", "res://Dialogue/SocialMedia.dialogue", "res://Dialogue/Adelaide.dialogue", "res://Dialogue/TattooEnding.dialogue", "res://Dialogue/gameEnd.dialogue", "res://Dialogue/inbetwen1.dialogue", "res://Dialogue/inbetween2.dialogue")
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

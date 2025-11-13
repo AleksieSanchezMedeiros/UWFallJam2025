@@ -1,0 +1,25 @@
+~ start
+Maya Deren: I hope this is quick, my art is calling me to create right now. 
+Detective: Of course Miss Deren. So from what I’ve learned about you, you're a well-known tattoo artist here in our city. 
+Maya Deren: Yes, I am. I’m quite lucky to do what I love for a living. I hope I’m not a suspect solely because I’m a well-known tattoo artist?
+Detective: Of course not. The reason is that many of the Miss Pell victims have actually been previous clients of yours.  
+Maya Deren: [i]*sighs*[/i] Yes I know. 
+~ Question1
+- “You know this already? How?”
+	Maya Deren: Well, let’s say those same victims, my past clients, have ensured that I know and everyone else knows what has happened to them. They’ve basically ruined my reputation by spreading false claims that I am this Miss Pell, an idiotic name I might add. 
+	Maya Deren: And I’ve tried to be understanding, even offering free tattoo removal procedures. But I must confess I’m losing my patience every single day.
+	=> Question1
+- “What is your relationship like with your work? 
+	Maya Deren: Ohh I love what I do. I create a legacy with my art, put my designs onto people who carry forth my creativity. 
+	Detective: Has there been clients who come forth with their own designs? 
+	Maya Deren: Ugh, yes I do. There are some clients who refuse any advice I give them, so I’m glad to turn them away. It’s a shame though, to see potential wasted. 
+	=> Question1
+- “Could you write out the following phrase “It’s rice to meet you.” 
+	Maya Deren: ….ugh fine. 
+	Miss Deren writes out the phrase. The handwriting style doesn’t match the style of the Miss Pell Tattoos. However, the word [b]“meat”[/b] is written with confidence. 
+	=> Question1
+- END QUESTIONING
+	[i]Maya Deren leaves muttering about art and fate...[/i]
+	do back_to_line_up()
+	=> END
+=> END

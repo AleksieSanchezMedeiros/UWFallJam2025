@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctnfqb11gx83o"]
+
+[ext_resource type="Script" uid="uid://ll67abopyqd3" path="res://audio_controller.gd" id="1_btkaq"]
+[ext_resource type="AudioStream" uid="uid://c3ipet1bs8y0r" path="res://Sounds/duality.mp3" id="2_t0xn5"]
+
+[node name="AudioController" type="Node"]
+script = ExtResource("1_btkaq")
+
+[node name="BgMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_t0xn5")

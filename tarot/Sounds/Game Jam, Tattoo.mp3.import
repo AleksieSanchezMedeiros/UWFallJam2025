@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://yctrolyvy4m3"
+path="res://.godot/imported/Game Jam, Tattoo.mp3-9690b0d68c642e682bf18185512be0f1.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Game Jam, Tattoo.mp3"
+dest_files=["res://.godot/imported/Game Jam, Tattoo.mp3-9690b0d68c642e682bf18185512be0f1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

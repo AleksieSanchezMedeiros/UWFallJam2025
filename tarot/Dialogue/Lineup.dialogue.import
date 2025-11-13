@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://by3arnk82bvjh"
+path="res://.godot/imported/Lineup.dialogue-9238240d75ca1c27deb76c84869f0d58.tres"
+
+[deps]
+
+source_file="res://Dialogue/Lineup.dialogue"
+dest_files=["res://.godot/imported/Lineup.dialogue-9238240d75ca1c27deb76c84869f0d58.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,24 @@
+~ EagleScoutz
+EagleScoutz: EVERYBODY GET READY AND BUCKLE UP!!! CAUSE HERE WE GO
+Detective: You seem awfully happy for someone who’s being interrogated.
+EagleScoutz: This is killer content, my dude. ‘I Got Interrogated by a Real Detective (Gone Wrong?!?)’, already got the thumbnail.
+Detective: …alright. So, let’s get started. The reason why we called you down here is because before the games were stolen, a large number of people were in the store. And due to the store being packed, it made it easy for the culprit to steal so many games. And after interrogating a couple of the people we have learned that many of those who were at the store at the time of the robbery were your fans.  Care to comment on that? 
+EagleScoutz: I can see that, with millions of subscribers, I'm not surprised if this whole city is a fan of my content. So what if they were all my fans? I was livestreaming a horror game during then, at my very expensive and luxurious home, nowhere near the scene of GameGo.  
+Detective: I see, a solid alibi. 
+EagleScoutz: Yeah, can I go now? I gotta finish my Za-for Carbon Edition review first. Super rare copy.
+~ Question1
+- Already got it? Before its official release day?
+	EagleScoutz: Yeah dawg, I’m rolling in dough and fame, I’ve got no reason to steal it
+	EagleScoutz: When you're this famous, you're gonna be able to get early access to the best games. I’m not like those other youtubers who have to wait, like that JordJocus guy out there. 
+	=> Question1
+- Oh wow. You’re really committed to grinding out peak content for your fans.
+	EagleScoutz: What can I say, I love what I do. It’s my life. In my sleep, in my dreams, during breakfast, lunch, dinner, I breathe video games. My fans EXPECT that level of dedication.
+	=> Question1
+- So who would you say would have stolen the games?
+	[i]He grins too widely, flashing that clickbait smile.[/i]
+	EagleScoutz: I’ve got no idea, dawg. But you gotta know how competitive it is to be on youtube, people are willing to do whatever it takes sometimes to achieve that fame. 
+	=> Question1
+- END QUESTIONING
+	[i]EagleScoutz saunters away, murmuring his new clickbait title[/i]
+	do back_to_line_up()
+	=> END

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://ct53qqec7gftu"
+path="res://.godot/imported/wackonald_lineup.dialogue-f004e9697c3f8c9408da090840cd94df.tres"
+
+[deps]
+
+source_file="res://Dialogue/wackonald_lineup.dialogue"
+dest_files=["res://.godot/imported/wackonald_lineup.dialogue-f004e9697c3f8c9408da090840cd94df.tres"]
+
+[params]
+
+defaults=true

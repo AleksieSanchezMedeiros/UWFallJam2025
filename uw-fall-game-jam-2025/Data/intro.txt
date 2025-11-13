@@ -1,0 +1,13 @@
+:Reports of crime have risen over the last few months. Despite police and detective forces scrambling all over our city 24/7 to find these criminals, their efforts have been in vain.
+:Because of this, police officers and detectives have started creating task forces with individuals of spirituality.
+:Known as [wave]Operation Arcana[/wave], fortune tellers, tarot card readers, and spiritualists are now utilizing their powers of spirituality and sixth senses to get justice. 
+  Detective Roman  :Welcome to the taskforce. We thank you for joining and helping us with our mission.
+  Detective Roman  :I will be honest, I don’t believe all of this spiritual nonsense but I guess that is what you will be proving to not just me but to all of us.
+  Roman  :We have a set of cases that we need your help on. Do well, and your efforts will help the success of Operation Arcana.
+=line_up
+  Roman  :Let’s get started on the first case, I’ll be guiding you on this one.
+  Roman  :Last night, someone broke into the GameGo, a video game store near here. Many newly released and popular games were stolen such as the limited edition copy of Za-for.
+  Roman  : You can access more information related to a case with the file icon in the bottom right corner. You can click there anytime throughout the interrogation for reference. 
+  Roman  : Also, we have set up the interrogation room with all of the things that you have so specifically requested. 
+  Detective  : Yes Oman, before interrogating, I’d like to convene with my spirits.
++

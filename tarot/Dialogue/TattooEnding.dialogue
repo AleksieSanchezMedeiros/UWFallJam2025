@@ -1,0 +1,22 @@
+~ start
+Roman: Last Case of the Day, Detective
+Roman: Make your decision
+Detective: It's...
+do can_click_now()
+
+- Maya Deren, The Artist
+	After accusing Miss Deren to be the culprit, the tattooing incidents continued significantly.
+	Due to the continuous slaughter of her reputation, Miss Deren has closed her shop for the meantime and has gone somewhere else to devote her creativity passions.
+	do InterviewTracker.romanFail(true)
+- Mona Vale, The Social Media Coordinator
+	After accusing Mona Vale to be the culprit, Mona Vale confessed immediately due to the pressure.
+	She revealed that she wanted to become an artist like Maya Deren, but could not due to the constant judgment from Miss Deren.
+	“Using what I knew about Miss Deren and the letters that Adelaide had sent us, I wanted to set up Miss Deren in order to ensure she could never judge others’ art ever again!!”  
+- Adelaide, The Protestor
+	After Adelaide’s arrest, public outrage grew over the “religious extremist” suspect.
+	However, new victims appeared while she remained in custody, disproving her involvement.
+	Handwriting analysis later linked all threatening letters to another source.
+	Adelaide was released and cleared of all charges, though her reputation suffered permanent damage.
+	do InterviewTracker.romanFail(true)
+do go_to_next_crime()
+=> END

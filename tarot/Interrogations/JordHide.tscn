@@ -1,0 +1,93 @@
+[gd_scene load_steps=7 format=3 uid="uid://c7ewkmgtyxt00"]
+
+[ext_resource type="Script" uid="uid://c066r5hagla7c" path="res://Interrogations/jord_interview.gd" id="1_1gr5d"]
+[ext_resource type="Texture2D" uid="uid://dksidd6dgyv5b" path="res://Backgrounds/reading_background.png" id="1_brewk"]
+[ext_resource type="PackedScene" uid="uid://dwgp7ma3a7jof" path="res://Scenes/Orb.tscn" id="2_1gr5d"]
+[ext_resource type="PackedScene" uid="uid://jau6lca5oel5" path="res://Scenes/Character.tscn" id="3_0t47a"]
+[ext_resource type="SpriteFrames" uid="uid://dv7lljkq7tyl6" path="res://Assets/Candle.tres" id="5_0t47a"]
+[ext_resource type="PackedScene" uid="uid://cy8e3bph0atuv" path="res://Scenes/Card.tscn" id="6_4o3gg"]
+
+[node name="JordHide" type="Node2D"]
+script = ExtResource("1_1gr5d")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Background" type="TextureRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_brewk")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+layer = 3
+
+[node name="Control" type="Control" parent="CanvasLayer2"]
+layout_mode = 3
+anchor_left = 0.51600003
+anchor_top = 0.725
+anchor_right = 0.51600003
+anchor_bottom = 0.725
+offset_left = -19.432007
+offset_top = -19.800018
+offset_right = 20.567993
+offset_bottom = 20.200043
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Orb" parent="CanvasLayer2/Control" instance=ExtResource("2_1gr5d")]
+script = null
+
+[node name="CanvasLayer3" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer3"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Node2D" parent="CanvasLayer3/Control" instance=ExtResource("3_0t47a")]
+position = Vector2(18, -72.00001)
+scale = Vector2(5, 5)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CanvasLayer3/Control"]
+position = Vector2(-219, 101)
+scale = Vector2(2.046875, 2.171875)
+sprite_frames = ExtResource("5_0t47a")
+frame_progress = 0.90649855
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="CanvasLayer3/Control"]
+position = Vector2(260, 101)
+scale = Vector2(2.046875, 2.171875)
+sprite_frames = ExtResource("5_0t47a")
+frame_progress = 0.5227646
+
+[node name="CanvasLayer4" type="CanvasLayer" parent="."]
+layer = 21
+
+[node name="Control" type="Control" parent="CanvasLayer4"]
+layout_mode = 3
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -40.0
+offset_top = -20.0
+offset_bottom = 20.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="Node2D" parent="CanvasLayer4/Control" instance=ExtResource("6_4o3gg")]
+position = Vector2(-20, -174)
+scale = Vector2(2, 2)

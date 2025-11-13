@@ -1,0 +1,14 @@
+[gd_resource type="SpriteFrames" load_steps=2 format=3 uid="uid://cjky73ogj07u8"]
+
+[ext_resource type="Texture2D" uid="uid://cxvjnylawpt0s" path="res://suspect.png" id="1_7fl65"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7fl65")
+}],
+"loop": true,
+"name": &"Roman",
+"speed": 5.0
+}]

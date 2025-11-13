@@ -1,0 +1,26 @@
+~ start
+Frank: “You’re the detective, right? Can we make this quick? My break’s only ten minutes and I’d rather spend them not sweating in this suit.”
+Detective: “You’re the mascot for Wackonald’s, yes?”
+Frank: “Yup, for 10 years now. They keep transferring me around. Every time a place burns down, I get shipped to another one. It’s starting to feel rather.. Personal.”
+Detective: “So, we called you down here because we’ve been told that you’re always conveniently outside when the fire breaks out.”
+Frank: “My fault I don’t want to be in that junk of a place 24/7. I don’t know why the fires always happen when I’m on lunch break. Also which coworker said that huh? Gaby? Mateo? I swear if it's Bert.”
+~ Question1
+- “So why don’t you have your lunch break inside?\nWhy outside?”
+	Frank: “It’s the only time I get away from that nightmarish place. You try entertaining a bunch of kids who throw ketchup packets at you in a costume double the body weight. If I really wanted something burned, it’d be the costume. Also that’s when Louis Cone comes into our store, and I’d rather be farrr away from him.”
+	Detective: Why is that?
+	Frank: That man loves our food, too much I’d say. But he’s always wanting to take a picture with me. Ugh. So being inside ensures I'm as far away as possible and not dealing with his tantrums. 
+	=> Question1
+- “You sound like you’re not the biggest fan of your job.\nAnd we’ve been told you tend to act out a lot because of that.\nWhat do you have to say about that?”
+	Frank: "Acting out doesn’t mean arsonist.”
+	Frank: “Sure I like to sometimes take breaks longer than I’m supposed to and eat all the ice cream from the ice cream machine so annoying customers don’t get any but I think I deserve it. I’m good at my job, the fry suit becomes me andI am one with the fry. There’s a reason why I’ve had this job for years. 
+	Frank: “But, in my restless dreams, I see that costume. Oh…but I dream. I hope to one day be out of this costume forever and pursue my real love: pizza mascot.”
+	=> Question1
+- “Since you are there often at Wackonold’s\nhave you seen anything suspicious during a fire? 
+	Frank: “Difficult to say, cause when things are burning and things are getting hotter than the insides of this costume, you get as far away as you can. I don’t have time to look around and be a detective, detective.” 
+	Detective: How about before the fire. Any hint or pattern that occurs right before a fire? Anything at all. 
+	Frank: …Fine. I was paid to not say this, but let’s just say I always see a certain CEO eating Wackonld’s food behind the store before a fire. 
+	=> Question1
+- END QUESTIONING
+	[i]Frank the Mascot waddles out.[/i]
+	do back_to_line_up()
+=> END

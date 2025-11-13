@@ -1,0 +1,52 @@
+[gd_scene load_steps=7 format=3 uid="uid://bs74ebwm4naw8"]
+
+[ext_resource type="Texture2D" uid="uid://clpcsbcik0yb5" path="res://assets/crystal_ball.png" id="1_caui3"]
+[ext_resource type="Script" uid="uid://6kgqtcvwgxw3" path="res://Scenes/orb.gd" id="1_ryljl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ryljl"]
+atlas = ExtResource("1_caui3")
+region = Rect2(0, 0, 108, 108)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4tb7o"]
+atlas = ExtResource("1_caui3")
+region = Rect2(108, 0, 108, 108)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4tb7o"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ryljl")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4tb7o")
+}],
+"loop": true,
+"name": &"glow",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ryljl"]
+radius = 43.0
+height = 108.0
+
+[node name="Orb" type="Node2D"]
+script = ExtResource("1_ryljl")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_4tb7o")
+
+[node name="Area2D" type="Area2D" parent="."]
+scale = Vector2(2, 2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-0.5, 3)
+shape = SubResource("CapsuleShape2D_ryljl")
+
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]

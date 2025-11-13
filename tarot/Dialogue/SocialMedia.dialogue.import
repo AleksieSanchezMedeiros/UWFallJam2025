@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cy3muhf3s60e"
+path="res://.godot/imported/SocialMedia.dialogue-fff74d3f9e4cb2174f2059dcd9381dfa.tres"
+
+[deps]
+
+source_file="res://Dialogue/SocialMedia.dialogue"
+dest_files=["res://.godot/imported/SocialMedia.dialogue-fff74d3f9e4cb2174f2059dcd9381dfa.tres"]
+
+[params]
+
+defaults=true

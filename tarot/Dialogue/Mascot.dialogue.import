@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cvhlb1t36vufe"
+path="res://.godot/imported/Mascot.dialogue-1c79ded247dfdaab5c7022f204c9cf51.tres"
+
+[deps]
+
+source_file="res://Dialogue/Mascot.dialogue"
+dest_files=["res://.godot/imported/Mascot.dialogue-1c79ded247dfdaab5c7022f204c9cf51.tres"]
+
+[params]
+
+defaults=true

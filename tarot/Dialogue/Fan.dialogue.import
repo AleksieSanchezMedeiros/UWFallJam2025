@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bav3sgduy27o3"
+path="res://.godot/imported/Fan.dialogue-138020ead4c8ca5b2671b311a23ad7e4.tres"
+
+[deps]
+
+source_file="res://Dialogue/Fan.dialogue"
+dest_files=["res://.godot/imported/Fan.dialogue-138020ead4c8ca5b2671b311a23ad7e4.tres"]
+
+[params]
+
+defaults=true

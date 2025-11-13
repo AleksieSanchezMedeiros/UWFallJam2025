@@ -1,0 +1,26 @@
+~ start
+CEO: “Detective! I’d like to know why in the burger-world I’m here. It isn’t my stores that are being burned down, are they?”
+Detective: “No, Mr. CEO. However, we wanted to question you further. Your rivalry and hate for Wackonld’s is infamous. For instance, you’ve been seen paying kids to throw ketchup packets at the Wackonld’s mascot, sabotaging the icecream machine, and even buying their food just to trash it. It’s no wonder, many people accuse you of being behind the fires.”
+CEO: “Ugh please. I run a successful business, I’m busy enough as it is. I don’t have time to run around dilly dallying and causing fires. What I do are just harmless pranks.”
+~ Question1
+- Why do you dislike Wackonld’s so much to the point of conducting “harmless pranks” as you say? 
+	CEO: Because that business doesn’t deserve all the fame and attention it has!! It’s overhyped. Sure they have decent desserts, but their burgers? Please, the tomatoes are too soft, the lettuce is old, and the quality of the meat is so-so. 
+	Detective: Wow, you have great attention to detail and taste. 
+	CEO: Why thank you, I put a lot of work into analyzing what I eat. 
+	Detective: So you’ve eaten Wackonld’s food before. 
+	CEO: ….No. 
+	=> Question1
+- Who do you think is responsible for these fires then?” 
+	CEO: Hmm. I’d say a customer. I definitely know from experience that someone who is both hungry AND angry is willing to act out in many ways than one. 
+	CEO: Or possibly a person who works at the store, who has a lot of knowledge to ensure a store is completely destroyed.
+	=> Question1
+- What is it like to be the CEO of Warger King? Tell me a bit more about your work.
+	CEO: Excellent question, detective. I’d love to tell you. 
+	CEO: I’ve built my business from the ground up, putting my blood, sweat, and tears into my work. I love what I do, seeing customers enjoying the best food in the burger-world and I will continue doing that until the very end of my life. 
+	Detective: What makes your business different from Wackonald’s.
+	CEO: Well first of all, we don’t have a silly mascot costume. Also second, we ensure that we always, always give peak quality and constant availability to our customers. Quite unlike Wackonald’s where they often run out of food and are known to have their ice cream machine breaking constantly. 
+	=> Question1
+- END QUESTIONING
+	[i]The CEO leaves the room...[/i]
+	do back_to_line_up()
+	=> END

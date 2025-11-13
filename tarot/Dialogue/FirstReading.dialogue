@@ -1,0 +1,29 @@
+~ start
+do set_click(false)
+[i]To conduct a reading, press the crystal ball.[/i]
+=> hideBox
+
+~ continue
+do set_click(false)
+do show_all_tarot_card()
+[i]Press C to see card descriptions[/i]
+Roman: What are those? 
+Detective: These are Tarot Cards. They are a deck of cards that I use to help me with fortune telling, self-reflection, and to gain insight on the criminal we are looking for. The deck consists of major arcana cards that represent a bigger picture and minor arcana cards that can provide detail and current information. 
+Roman: So we’re looking for… the Devil??
+do show_all_tarot_card()
+Detective: No, Ruman. The Devil card doesn’t just represent a devilish person, but rather certain qualities such addiction, obsession, selfishness, desire, and the idea of breaking away from bad habits. We need to find someone who embodies that. 
+Roman: Okay… How do you remember what each card even represents? 
+do show_all_tarot_card()
+Detective: Through years and years and years of experience. And sometimes looking things up (which you can do). 
+[i]Cards will be on the top right as you interrogate suspects. Press C to receive info[/i]
+Roman: Are you ready to meet the suspects?
+do show_all_tarot_card()
+Detective: I’m ready, Roro. 
+do change_scene_again()
+=> END
+
+~ hideBox
+do set_click(true)
+
+
+=> END

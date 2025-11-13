@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://6v1he3vcjtel"
+path="res://.godot/imported/JordJocus.dialogue-99ab43f31ba0d3941e9e0e285cfa43b3.tres"
+
+[deps]
+
+source_file="res://Dialogue/JordJocus.dialogue"
+dest_files=["res://.godot/imported/JordJocus.dialogue-99ab43f31ba0d3941e9e0e285cfa43b3.tres"]
+
+[params]
+
+defaults=true

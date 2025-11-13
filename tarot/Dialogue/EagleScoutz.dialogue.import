@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c6yw1m5rh8twy"
+path="res://.godot/imported/EagleScoutz.dialogue-5d050c814fe172051bd1462b80f2d8c1.tres"
+
+[deps]
+
+source_file="res://Dialogue/EagleScoutz.dialogue"
+dest_files=["res://.godot/imported/EagleScoutz.dialogue-5d050c814fe172051bd1462b80f2d8c1.tres"]
+
+[params]
+
+defaults=true

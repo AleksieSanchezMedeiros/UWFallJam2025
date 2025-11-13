@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://m1l1kmjk8l8s"
+path="res://.godot/imported/inbetween2.dialogue-aeab94adc269b188ba7e3c619a00adbb.tres"
+
+[deps]
+
+source_file="res://Dialogue/inbetween2.dialogue"
+dest_files=["res://.godot/imported/inbetween2.dialogue-aeab94adc269b188ba7e3c619a00adbb.tres"]
+
+[params]
+
+defaults=true

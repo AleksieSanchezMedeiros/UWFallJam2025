@@ -1,0 +1,30 @@
+~ start
+Fan: “I didn’t burn anything! I swear!”
+Detective: “No one’s said that you caused the fires. We just want to ask you some questions. We called you hear because your quite known to be a big fan of Wackonld's, named the #1 customer for 5 years. So, we would like to see if you’d know anything about the recent fires.”
+Fan: Okay…
+~ Question1
+- “What do you like about Wackonld’s?” 
+	Fan: Oh gosh everything. I’ve had many precious memories there, when I’m happy, sad, and especially stressed.
+	Detective: We’ve been told that you go there almost every day, are you normally stressed? 
+	Fan: You know it, I was recently let go from my job. It’s been chaotic enough as it is, so why would I want to start committing crime?! Especially a crime against my favorite place in the world. 
+	=> Question1
+- “Do you notice anything suspicious when eating at Wackonld's?" 
+	Fan: Oh, um no not really. I order my food and I typically like to take a photo with the mascot there. 
+	Detective: I see, yes, the other suspect out there. 
+	Fan: Mhm we’re besties. 
+	Detective: What do you normally order from there? 
+	Fan: Oh I like to get the 10-in-1 combo with a double order of fries and for dessert their ice cream supreme special. I’d die for their ice cream, it’s my favorite thing. 
+	Detective: I see, I’ll get that next time then. 
+	Fan: NO. I- mean, sure yeah.
+	=> Question1
+- “What do you think about the staff at Wackonld’s? Such as the CEO and the mascot there?”
+	Fan: Hmm well, they are the ones who basically help make Wackonld’s what it is today!!! I’m the biggest fan of them.
+	Fan: The other staff though, they’re not my favorite. 
+	Detective: Do you not like the food they make? 
+	Fan: No no of course not, but I swear, call me crazy if you must, but I think they’re keeping food away from me on purpose. Always telling me things like “Louis we have no more fries, Louis stop drinking straight from the soda machine, No Louis our ice cream machine is broken.” LIARS.  
+	Fan: I regret that fires are occurring at my favorite place, but with staff like that who lie to customers. Well, there should be some FIRINGS that should be happening.
+	=> Question1
+- END QUESTIONING
+	[i]The Fan leaves, looking up the closest Wackonld's[/i]
+	do back_to_line_up()
+=> END

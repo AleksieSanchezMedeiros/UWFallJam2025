@@ -1,0 +1,50 @@
+[gd_scene load_steps=4 format=3 uid="uid://c3g76fdtl2y5c"]
+
+[ext_resource type="Script" uid="uid://cfbrdfisfraty" path="res://Scenes/first_line_up.gd" id="1_1gyn0"]
+[ext_resource type="Texture2D" uid="uid://gktn3ruijeek" path="res://Backgrounds/lineup_background.png" id="1_fsmm7"]
+[ext_resource type="PackedScene" uid="uid://jau6lca5oel5" path="res://Scenes/Character.tscn" id="3_knu3h"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_1gyn0")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Background" type="TextureRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_fsmm7")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer2"]
+layout_mode = 3
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -231.0
+offset_right = 334.0
+grow_vertical = 0
+
+[node name="Node2D" parent="CanvasLayer2/Control" instance=ExtResource("3_knu3h")]
+position = Vector2(350, 0)
+scale = Vector2(7, 7)
+
+[node name="Control2" type="Control" parent="CanvasLayer2"]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -273.0
+offset_top = -252.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="Node2D" parent="CanvasLayer2/Control2" instance=ExtResource("3_knu3h")]
+position = Vector2(-34.000004, 33.000004)
+scale = Vector2(6.65, 6.65)
